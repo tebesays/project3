@@ -7,7 +7,7 @@ begin
 	Display 'Cinema Ticket'
 	Display 'Title 	:' + cTitleChose
 	Display 'Time  	:' + cTime2
-	Display 'Cinema :' + nCinema
+	Display 'Teater :' + nCinema
 	Display 'Price  :' + nPriceChoose
 	Display 'Seat  	:' + 
 	for (nPrint = 0; nPrint < nQuant; nPrint++)

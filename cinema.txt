@@ -8,9 +8,11 @@ begin
 		
 					cTitleChose
 			
-					cDetile[cCinema]
+					cInfor[nCinema]
 		
-					cPrice[cCinema]
+					cPrice[nCinema]
+					
+					cTeater[nCinema]
 		
 		Time : 
 		0. 09.00 AM

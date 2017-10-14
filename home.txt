@@ -1,4 +1,4 @@
-Procedures home
+Procedure home
 
 begin
 		
@@ -7,20 +7,21 @@ begin
 		Display " Welcome to BooKuy " +
 		
 		
-		for(nFor = 0; nFor <= nCinemaTotal; nFor = nFor + 1)
+		for(nFor = 0; nFor <= nFilmTotal; nFor = nFor ++)
 		begin
-				Display nFor + '.) Cinema ' nConf++ ' : ' cTitle[nFor]
+				Display nFor + '.) ' + cTitle[nFor]
 		end 
 
-		//Example of Display is --> 0.) Cinema 1 : Dead Pool
+		//Example of Display is --> 0.) Dead Pool
 		
 
 		Display '===================== Input number of film what you want to choose============================'
 		
 		Accept nCinema  
 		
-		cTitleChose = cTitle[nCinema];	
-		nPriceChose = nPrice[nCinema];									
+		cTitleChose = cTitle[nCinema]	
+		nPriceChose = nPrice[nCinema]
+		nTeaterChose = nTeater[nCinema]
 		
 		call proce Cinema //goto cinema procedure
 end 

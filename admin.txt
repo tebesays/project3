@@ -4,26 +4,33 @@ begin
 
 		Numeric nCinemaTotal, nFilmNumber = 1;
 
-		Display "*******Form Input**********" 
-		Display "*******Schedule************" 
-		Display "*******Form cinema*********" 
-		Display "===========================" 
-		Display "Please Input the numbers of Cinema'
-		Accept nCinemaTotal
+		Display '*******Form Input**********' 
+		Display '*******Schedule************' 
+		Display '*******Form cinema*********' 
+		Display '===========================' 
+		Display 'Please Input the numbers of Films'
+		
+		Accept nFilmTotal
 				
-		for(nLoopTitle = 0; nLoopTitle < nCinemaTotal; nLoopTitle++)
+		for(nLoopTitle = 0; nLoopTitle < nFilmTotal; nLoopTitle++)
 		Begin
 		Display "*******Form cinema**********" 	+  nFilmNumber++
 
-		Display 'Please Input Title film  "
+		Display 'Please Input Title film'
 			Accept  cTitle[nLoopTitle]
  
-		Display 'Please Input   Sinopsis'
-			Accept cDetile[nLoopTitle]
+		Display 'Please Input information of film'
+			Accept cInfor[nLoopTitle]
 
 		Display 'Please input price of film'
-			Accept cPrice[nLoopTitle]
-
+			Accept nPrice[nLoopTitle]
+		
+		Display 'Please input Teater'
+			Accept nTeater[nLoopTitle]
+			
+		Display 'Please Input the numbers of seat in the teater'
+			Accept nSeatTeater[nLoopTitle]
+			
 		end
 		
 end
