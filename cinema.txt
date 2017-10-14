@@ -1,0 +1,45 @@
+Procedure Cinema 
+
+begin 
+		
+		Numeric nTime
+		
+		Display 
+		
+					cTitleChose
+			
+					cDetile[cCinema]
+		
+					cPrice[cCinema]
+		
+		Time : 
+		0. 09.00 AM
+		1. 11.00 AM
+		2. 13.00 PM
+		3. 15.00 PM		
+		"
+		
+		Accept nTime
+		
+		Switch (nTime)
+		begin
+				case 0 :
+						cTime2 = '09.00 AM' 
+						call Proce seat
+				Break
+				
+				Case 1 :
+						cTime 2 = '11.00 AM'
+						call Proce seat
+				Break
+				
+				Case 2 :
+						cTime 2 = '13.00 AM'
+						call Proce seat
+				Break
+				Case 3 :
+						cTime 2 = '15.00 AM'
+						call Proce seat
+				Break
+		end
+end

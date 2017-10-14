@@ -1,0 +1,40 @@
+//----------------- GLOBAL SCOPE VARIABLE --------------------------
+
+Character cTitle[], cDetile[],  cSeat[] , cTime2, cTitleChose
+Numeric nCinema, nQuant, nPriceChoose ,nPrice[]
+
+//------------------- END ------------------------------------------
+Procedure Login
+
+begin
+		Character cUsername, cPassword
+		Numeric nlevel
+		
+
+		Display '==============================Input Username & Password================================'
+		Display 'Input Username'
+		Accept cUsername
+		Display 'Input Password'
+		Accept cPassword
+		
+		if(cPassword == 'admin' && cUsername == 'admin')
+		
+			begin
+				call Proc admin_Schedule
+			end
+		
+		else if(cPassword == 'user' && cUsername== 'user')
+		
+			begin
+				Call Proc Home
+			end
+		
+		else
+			
+			begin
+		
+				Display 'Your username or password is not available'
+				Call login
+			
+			end
+end

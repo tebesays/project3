@@ -1,0 +1,30 @@
+Procedure Admin_Schedule
+
+begin 
+
+		Numeric nCinemaTotal, nFilmNumber = 1;
+
+		Display "*******Form Input**********" 
+		Display "*******Schedule************" 
+		Display "*******Form cinema*********" 
+		Display "===========================" 
+		Display "Please Input the numbers of Cinema'
+		Accept nCinemaTotal
+				
+		for(nLoopTitle = 0; nLoopTitle < nCinemaTotal; nLoopTitle++)
+		Begin
+		Display "*******Form cinema**********" 	+  nFilmNumber++
+
+		Display 'Please Input Title film  "
+			Accept  cTitle[nLoopTitle]
+ 
+		Display 'Please Input   Sinopsis'
+			Accept cDetile[nLoopTitle]
+
+		Display 'Please input price of film'
+			Accept cPrice[nLoopTitle]
+
+		end
+		
+end
+

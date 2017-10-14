@@ -1,0 +1,49 @@
+Procedure Print
+
+begin
+	Numeric nPrint = 0
+	Character cChoose 
+	
+	Display 'Cinema Ticket'
+	Display 'Title 	:' + cTitleChose
+	Display 'Time  	:' + cTime2
+	Display 'Cinema :' + nCinema
+	Display 'Price  :' + nPriceChoose
+	Display 'Seat  	:' + 
+	for (nPrint = 0; nPrint < nQuant; nPrint++)
+	begin
+		Display cSeat[nPrint]
+	end
+ 	
+	Display '========================== PRINT ==================================='
+	Display 'You want to print this Ticket (Y/N)'
+	
+	Accept cChoose
+
+	if(cChoose == 'Y' && cChoose == 'y')
+	begin
+			Print ' 
+				Cinema Ticket
+				Title 	: cTitleChose
+				Time	: cTime2
+				Cinema	: nCinema
+				Price   : nPriceChoose				
+				Seat	: 
+			'
+			for (nPrint = 0; nPrint < nQuant; nPrint++)
+			begin
+				Print 'cSeat[nPrint]'
+			end
+	
+	end
+	
+	else if(cChoose == 'N' && cChoose == 'n' )
+		begin
+			Call Procedure home
+		end
+	else
+		begin
+			Display 'Please input Y/N'
+			call procedure print 
+		end
+end
