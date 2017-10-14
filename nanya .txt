@@ -1,0 +1,5 @@
+Tanya ke pak TAR
+
+1. tanya print
+2. tanya admin bener gak pak ?
+3. pak bagaimana cara menghapus keseluruhan isi dari aray ?

@@ -1,7 +1,9 @@
 //----------------- GLOBAL SCOPE VARIABLE --------------------------
 
 Character cTitle[], cDetile[], cTime2, cTitleChose 
-Numeric nCinema, nQuant, nPriceChoose ,nPrice[] , nSeat[] , nTeater[] ,  nSeatTeater[] 
+Numeric nCinema, nQuant, nPriceChoose,nFilmTotal, nPrice[] 
+		, nSeat[],nTeater[],nSeatTeater[],nTeater1[],nTeater2[],nTeater3[],nTeater4[],
+		nTeater5[],nHasil[], nLimitSeat , nStartSeat
 
 //------------------- END ------------------------------------------
 Procedure Login

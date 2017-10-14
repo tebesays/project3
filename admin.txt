@@ -1,8 +1,7 @@
 Procedure Admin_Schedule
-
 begin 
 
-		Numeric nCinemaTotal, nFilmNumber = 1;
+		Numeric nCinemaTotal, nFilmNumber = 1, nInput = 1;
 
 		Display '*******Form Input**********' 
 		Display '*******Schedule************' 
@@ -31,7 +30,68 @@ begin
 		Display 'Please Input the numbers of seat in the teater'
 			Accept nSeatTeater[nLoopTitle]
 			
+			nSubs[nLoopTitle] = nSeatTeater[nLoopTitle] * 4
+			
+			Switch (nLoopTitle)
+			begin
+					Case 0 :
+							Call proce Teater1
+					break
+					Case 1 : 
+							Call proce Teater2
+					break
+					Case 2 : 
+							Call proce Teater3
+					break
+					Case 3 : 
+							Call proce Teater4
+					break
+					Case 4 : 
+							Call proce Teater5
+					break
+			end
 		end
 		
 end
 
+//--------------------------------------------------------------------------------------------
+
+Procedure Teater1
+begin
+for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
+	begin
+			nTeater1[nLoop] = nInput++ 
+	end
+end
+
+Procedure Teater2
+begin
+for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
+	begin
+			nTeater2[nLoop] = nInput++ 
+	end
+end
+
+Procedure Teater3
+begin
+for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
+	begin
+			nTeater3[nLoop] = nInput++ 
+	end
+end
+
+Procedure Teater4
+begin
+for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
+	begin
+			nTeater4[nLoop] = nInput++ 
+	end
+end
+
+Procedure Teater5
+begin
+for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
+	begin
+			nTeater5[nLoop] = nInput++ 
+	end
+end

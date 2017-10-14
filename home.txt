@@ -2,12 +2,14 @@ Procedure home
 
 begin
 		
-		Numeric nFor , nConf = 1
+		Numeric nFor 
 		
-		Display " Welcome to BooKuy " +
+		Display ' 
+		================================ Welcome to BooKuy =====================================================
+		'
 		
 		
-		for(nFor = 0; nFor <= nFilmTotal; nFor = nFor ++)
+		for(nFor = 0; nFor < nFilmTotal; nFor ++)
 		begin
 				Display nFor + '.) ' + cTitle[nFor]
 		end 

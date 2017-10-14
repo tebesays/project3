@@ -2,18 +2,16 @@ Procedure seat
 
 begin
  
-	Numeric nLoop
-
-		Display '
-
-		These are available seats :
+	Numeric nLoop , nMinusCode , nCodeSeat , nShowSeat
+	
+		Display 'These are available seats : '
 		
-		//ini bakalan keluar dari loop
+		nCodeSeat = nStartSeat + 1 
 		
-		1 	2 	3 	4 	5 	6 	7 	8 	9 	10
-		11 	12 	13 	14 	14 	16 	17 	18 	19 	20
-		
-		80 - 20
+		for(nShowSeat = nStartSeat ; nShowSeat < nLimitSeat ; nShowSeat++)
+		begin
+				Display nCodeSeat++
+		end
 	
 		=========================== Input the numbers of seats ===========================  '
 	
@@ -26,9 +24,26 @@ begin
 	for (nLoop = 0; nloop < nQuant; nLoop++)
 	begin
 	
-			Accept nSeat[nLoop]
-			// melakukan delete / null
+	Accept nSeat[nLoop]
+	nMinusCode = nSeat[nLoop] - 1
 	
+		Switch (nCinema)
+			
+			Case 0 :					
+					nTeater1[nMinusCode] = null
+			break
+			Case 1 :
+					nTeater2[nMinusCode] = null
+			break
+			Case 2 :
+					nTeater3[nMinusCode] = null
+			break
+			Case 3 :
+					nTeater4[nMinusCode] = null
+			break
+			Case 4 :
+					nTeater5[nMinusCode] = null
+			break			
 	end
 	
 	Call Proce Print

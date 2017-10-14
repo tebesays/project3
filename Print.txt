@@ -1,15 +1,16 @@
 Procedure Print
 
 begin
-	Numeric nPrint = 0
+	Numeric nPrint, nPrint2	
 	Character cChoose 
 	
 	Display 'Cinema Ticket'
 	Display 'Title 	:' + cTitleChose
 	Display 'Time  	:' + cTime2
-	Display 'Teater :' + nCinema
+	Display 'Teater :' + nTeaterChoose
 	Display 'Price  :' + nPriceChoose
 	Display 'Seat  	:' + 
+
 	for (nPrint = 0; nPrint < nQuant; nPrint++)
 	begin
 		Display cSeat[nPrint]
@@ -26,11 +27,11 @@ begin
 				Cinema Ticket
 				Title 	: cTitleChose
 				Time	: cTime2
-				Cinema	: nCinema
+				Teater	: nTeaterChoose
 				Price   : nPriceChoose				
 				Seat	: 
 			'
-			for (nPrint = 0; nPrint < nQuant; nPrint++)
+			for (nPrint2 = 0; nPrint2 < nQuant; nPrint2++)
 			begin
 				Print 'cSeat[nPrint]'
 			end

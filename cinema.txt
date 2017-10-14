@@ -2,7 +2,7 @@ Procedure Cinema
 
 begin 
 		
-		Numeric nTime
+		Numeric nTime 
 		
 		Display 
 		
@@ -26,20 +26,28 @@ begin
 		Switch (nTime)
 		begin
 				case 0 :
+						nLimitSeat = nSeatTeater[nCinema] * 1
+						nStartSeat = nLimitSeat - nSeatTeater[nCinema]
 						cTime2 = '09.00 AM' 
 						call Proce seat
 				Break
 				
 				Case 1 :
+						nLimitSeat = nSeatTeater[nCinema] * 2
+						nStartSeat = nLimitSeat - nSeatTeater[nCinema]
 						cTime 2 = '11.00 AM'
 						call Proce seat
 				Break
 				
 				Case 2 :
+						nLimitSeat = nSeatTeater[nCinema] * 3
+						nStartSeat = nLimitSeat - nSeatTeater[nCinema]
 						cTime 2 = '13.00 AM'
 						call Proce seat
 				Break
 				Case 3 :
+						nLimitSeat = nSeatTeater[nCinema] * 4
+						nStartSeat = nLimitSeat - nSeatTeater[nCinema]
 						cTime 2 = '15.00 AM'
 						call Proce seat
 				Break

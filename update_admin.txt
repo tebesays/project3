@@ -1,0 +1,54 @@
+Procedure Update_Admin
+
+begin
+		Numeric nShowFilms
+		
+		Display '
+		========================================= FORM UPDATE ====================================================================
+		'
+		for (nShowFilms = 0; nShowFilms < nFilmTotal; nShowFilms++)
+		begin
+				Display nShowFilms + '.) ' + cTitle[nShowFilms]
+		end
+		
+		Display ' 
+		====================================== Input code of films what you want to Edit ========================================='
+		
+		Accept nFilmUpdate
+		
+		Display '
+		====================================== What do you want to change ?? =====================================================
+		A . Title
+		B . Information
+		C . Price
+		D . Teater
+		E . Seat of teater
+		====================================== Please Input ======================================================================
+		'
+		
+		Accept cUpdate
+		
+		Switch (cUpdate)
+		begin 
+		
+			Case 'A' :
+						Display 'Input Title of Film'
+						Accept cTitle[nFilmUpdate]
+			break
+			Case 'B' : 
+						Display 'Input film information'
+						Accept cInfor[nFilmUpdate]
+			break
+			Case 'C' :
+						Display 'Input the price of the film'
+						Accept nPrice[nFilmUpdate]
+			break
+			Case 'D' :
+						Display 'Input teater of film'
+						Accept nTeater[nFilmUpdate] 
+			break
+			Case 'E' :
+						Display 'Please delete the film and input again'
+			break
+		end
+end

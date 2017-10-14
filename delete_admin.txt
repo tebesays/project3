@@ -1,0 +1,42 @@
+Procedure Delete_Admin
+
+begin
+
+		Numeric nShowFilms , nFilmCode
+		
+		Display 
+		'
+		======================= Please choose the film what you want to delete =============================
+		'
+		for (nShowFilms = 0; nShowFilms < nFilmTotal; nShowFilms++)
+		begin
+				Display nShowFilms + '.) ' + cTitle[nShowFilms]
+		end
+		
+		Accept nFilmCode
+
+		cTitle[nFilmCode] = null
+		cInfor[nFilmCode] = null
+		nPrice[nFilmCode] = null
+		nTeater[nFilmCode] = null
+		nSeatTeater[nFilmCode] = null
+		
+		Switch (nFilmCode)
+		begin
+			Case 0:
+					nTeater1[] = null
+			break
+			Case 1 :
+					nTeater2[] = null
+			break
+			Case 2 :
+					nTeater3[] = null
+			break
+			Case 3 :
+					nTeater4[]= null
+			break
+			Case 4 :
+					nTeater5[] = null
+			break
+		end
+end
