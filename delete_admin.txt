@@ -38,5 +38,9 @@ begin
 			Case 4 :
 					nTeater5[] = null
 			break
+			Default:
+					Display 'The code is not available'
+					call proce delete_admin
+			break
 		end
 end

@@ -23,14 +23,13 @@ begin
 
 	if(cChoose == 'Y' && cChoose == 'y')
 	begin
-			Print ' 
+			Display ' 
 				Cinema Ticket
-				Title 	: cTitleChose
-				Time	: cTime2
-				Teater	: nTeaterChoose
-				Price   : nPriceChoose				
-				Seat	: 
-			'
+				Title 	: ' + cTitleChose + '\n
+				Time	: ' + cTime2 + '\n
+				Teater	: ' + nTeaterChoose + '\n
+				Price   : ' + nPriceChoose + '\n			
+				Seat	: '
 			for (nPrint2 = 0; nPrint2 < nQuant; nPrint2++)
 			begin
 				Print 'cSeat[nPrint]'

@@ -17,13 +17,20 @@ begin
 		//Example of Display is --> 0.) Dead Pool
 		
 
-		Display '===================== Input number of film what you want to choose============================'
+		Display '===================== Input the code of film what you want to choose ============================'
 		
-		Accept nCinema  
-		
-		cTitleChose = cTitle[nCinema]	
-		nPriceChose = nPrice[nCinema]
-		nTeaterChose = nTeater[nCinema]
+		Accept nCinema 
+
+		if (nCinema > nFilmTotal - 1)
+		begin
+				Display 'Code is not available'
+		end
+		else
+		begin
+				cTitleChose = cTitle[nCinema]	
+				nPriceChose = nPrice[nCinema]
+				nTeaterChose = nTeater[nCinema]
+		end
 		
 		call proce Cinema //goto cinema procedure
 end 

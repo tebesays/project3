@@ -7,7 +7,7 @@ begin
 		Display '*******Schedule************' 
 		Display '*******Form cinema*********' 
 		Display '===========================' 
-		Display 'Please Input the numbers of Films'
+		Display 'Please Input the numbers of Films (MAX 5)'
 		
 		Accept nFilmTotal
 				
@@ -24,10 +24,10 @@ begin
 		Display 'Please input price of film'
 			Accept nPrice[nLoopTitle]
 		
-		Display 'Please input Teater'
+		Display 'Please input Teater (1-6)'
 			Accept nTeater[nLoopTitle]
 			
-		Display 'Please Input the numbers of seat in the teater'
+		Display 'Please Input the numbers of seat in the teater (Max 40)'
 			Accept nSeatTeater[nLoopTitle]
 			
 			nSubs[nLoopTitle] = nSeatTeater[nLoopTitle] * 4

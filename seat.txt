@@ -17,6 +17,8 @@ begin
 	
 	Accept nQuant
 	
+	//
+	
 		Display '
 
 		=========================== Enter the seat code =================================='

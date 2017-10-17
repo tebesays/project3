@@ -1,5 +1,24 @@
 Tanya ke pak TAR
 
 1. tanya print
+jawaban :
+Tulisnya Display aja
+
 2. tanya admin bener gak pak ?
+jawaban :
+Tulis maximal accnya berapa aja dan teaternya teater mana aja
+
 3. pak bagaimana cara menghapus keseluruhan isi dari aray ?
+jawaban :
+besok deh, kamu konsul duluan ya. 
+
+//-------------------------------------------------------------
+
+1. pak ini boleh kan kaya gini adminnya perulangan didalam perulangan ?
+2. Jika all data pada array jadi null tanpa pengulangan bisa gak pak
+3. trus pak trusss oop opp yaaa opp
+
+//----------------------------------------------------------------
+coret-coret :
+1.APUS ARRAY
+2.Autoritas accept data

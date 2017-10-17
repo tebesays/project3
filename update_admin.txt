@@ -50,5 +50,8 @@ begin
 			Case 'E' :
 						Display 'Please delete the film and input again'
 			break
+			Default  :
+						Display 'The code is not available'
+			Break
 		end
 end
