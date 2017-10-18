@@ -15,8 +15,14 @@ besok deh, kamu konsul duluan ya.
 //-------------------------------------------------------------
 
 1. pak ini boleh kan kaya gini adminnya perulangan didalam perulangan ?
+jawaban :
+boleh
 2. Jika all data pada array jadi null tanpa pengulangan bisa gak pak
+jawaban :
+apus delete
+
 3. trus pak trusss oop opp yaaa opp
+
 
 //----------------------------------------------------------------
 coret-coret :

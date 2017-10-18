@@ -63,6 +63,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 			nTeater1[nLoop] = nInput++ 
 	end
 end
+//--------------------------------------------------------------------------------------------
 
 Procedure Teater2
 begin
@@ -71,6 +72,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 			nTeater2[nLoop] = nInput++ 
 	end
 end
+//--------------------------------------------------------------------------------------------
 
 Procedure Teater3
 begin
@@ -79,7 +81,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 			nTeater3[nLoop] = nInput++ 
 	end
 end
-
+//---------------------------------------------------------------------------------------------
 Procedure Teater4
 begin
 for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
@@ -87,6 +89,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 			nTeater4[nLoop] = nInput++ 
 	end
 end
+//--------------------------------------------------------------------------------------------
 
 Procedure Teater5
 begin
