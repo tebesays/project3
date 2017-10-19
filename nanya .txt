@@ -25,6 +25,21 @@ apus delete
 
 
 //----------------------------------------------------------------
+1.Pak ini bagaimana flowchart nya terlalu panjang dan keterangannya boleh disini ?
+2. 
+
+//-----------------------------
+Tugas - Tugas
+
+- Power Point
+- Dry Run Table
+
 coret-coret :
 1.APUS ARRAY
 2.Autoritas accept data
+
+
+//-------------------------------------------------------
+
+1. Ubah judul2 dalam
+2. 

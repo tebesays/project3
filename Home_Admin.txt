@@ -1,0 +1,36 @@
+Home_Admin
+
+begin
+
+		Number nChoose
+		
+		Display '===============HELLO ADMIN!!=======================
+				 ============WHAT YOU WANT TO DO ??=================
+				 
+				 1. Add film
+				 2. Update film
+				 3. View film data
+				 
+				 ========== Please input the code ==================		 
+				 '
+				 
+				 Accept nChoose
+				 
+				 Switch (nChoose)
+				 begin
+				 
+						Case 1 :
+									Call proce add_admin
+						Break
+						Case 2 :
+									Call Proce Update_Admin
+						Break
+						Case 3 :
+									Call Proce Home
+						Break
+						Default:
+									Display 'The code is not available'
+									Call Proce Home_admin
+						Break
+				 end
+end
