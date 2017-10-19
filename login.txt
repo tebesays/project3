@@ -22,7 +22,7 @@ begin
 		if(cPassword == 'admin' && cUsername == 'admin')
 		
 			begin
-				call Proc admin_Schedule
+				call Proc add_film
 			end
 		
 		else if(cPassword == 'user' && cUsername== 'user')

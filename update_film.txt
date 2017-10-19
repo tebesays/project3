@@ -1,4 +1,4 @@
-Procedure Update_Admin
+Procedure Update_Film
 
 begin
 		Numeric nShowFilms
@@ -8,7 +8,7 @@ begin
 		'
 		for (nShowFilms = 0; nShowFilms < nFilmTotal; nShowFilms++)
 		begin
-				Display nShowFilms + '.) ' + cTitle[nShowFilms]
+				Display nShowFilms + '.) ' + cTitle[nShowFilms] // --> 0.)Dead Pool
 		end
 		
 		Display ' 
@@ -22,7 +22,6 @@ begin
 		B . Information
 		C . Price
 		D . Teater
-		E . Seat of teater
 		====================================== Please Input ======================================================================
 		'
 		
@@ -46,9 +45,6 @@ begin
 			Case 'D' :
 						Display 'Input teater of film'
 						Accept nTeater[nFilmUpdate] 
-			break
-			Case 'E' :
-						Display 'Please delete the film and input again'
 			break
 			Default  :
 						Display 'The code is not available'

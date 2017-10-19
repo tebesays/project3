@@ -1,4 +1,4 @@
-Procedure Admin_Schedule
+Procedure Admin_film
 begin 
 
 		Numeric nCinemaTotal, nFilmNumber = 1, nInput = 1;
@@ -55,7 +55,6 @@ begin
 end
 
 //--------------------------------------------------------------------------------------------
-
 Procedure Teater1
 begin
 for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
