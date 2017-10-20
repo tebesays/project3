@@ -24,6 +24,7 @@ begin
 		if (nCinema > nFilmTotal - 1)
 		begin
 				Display 'Code is not available'
+				call proce Home
 		end
 		else
 		begin

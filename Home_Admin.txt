@@ -9,7 +9,7 @@ begin
 				 
 				 1. Add film
 				 2. Update film
-				 3. View film data
+				 3. Log out
 				 
 				 ========== Please input the code ==================		 
 				 '
@@ -20,13 +20,13 @@ begin
 				 begin
 				 
 						Case 1 :
-									Call proce add_admin
+									Call proce add_film
 						Break
 						Case 2 :
-									Call Proce Update_Admin
+									Call Proce Update_film
 						Break
 						Case 3 :
-									Call Proce Home
+									Call Proce Log out
 						Break
 						Default:
 									Display 'The code is not available'

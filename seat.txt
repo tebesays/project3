@@ -45,7 +45,8 @@ begin
 			break
 			Case 4 :
 					nTeater5[nMinusCode] = null
-			break			
+			break		
+			
 	end
 	
 	Call Proce Print

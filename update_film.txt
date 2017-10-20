@@ -2,6 +2,7 @@ Procedure Update_Film
 
 begin
 		Numeric nShowFilms
+		Character cUpdate
 		
 		Display '
 		========================================= FORM UPDATE ====================================================================
@@ -22,6 +23,7 @@ begin
 		B . Information
 		C . Price
 		D . Teater
+		E . Back to home admin
 		====================================== Please Input ======================================================================
 		'
 		
@@ -33,21 +35,29 @@ begin
 			Case 'A' :
 						Display 'Input Title of Film'
 						Accept cTitle[nFilmUpdate]
+						Call proce update_film
 			break
 			Case 'B' : 
 						Display 'Input film information'
 						Accept cInfor[nFilmUpdate]
+						Call proce update_film
 			break
 			Case 'C' :
 						Display 'Input the price of the film'
 						Accept nPrice[nFilmUpdate]
+						Call proce update_film
 			break
 			Case 'D' :
 						Display 'Input teater of film'
-						Accept nTeater[nFilmUpdate] 
+						Accept nTeater[nFilmUpdate]
+						Call proce update_film
+			break
+			Case 'E' :
+						Call proce home_admin
 			break
 			Default  :
 						Display 'The code is not available'
+						Call proce update_film
 			Break
 		end
 end

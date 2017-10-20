@@ -34,9 +34,8 @@ begin
 			begin
 				Print 'cSeat[nPrint]'
 			end
-	
-	end
-	
+			Call proce home
+	end	
 	else if(cChoose == 'N' && cChoose == 'n' )
 		begin
 			Call Procedure home

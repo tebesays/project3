@@ -49,6 +49,10 @@ begin
 					Case 4 : 
 							Call proce Teater5
 					break
+					Default :
+							Display 'try again'
+							call proce add_film
+					Break 
 			end
 		end
 		
@@ -61,6 +65,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	begin
 			nTeater1[nLoop] = nInput++ 
 	end
+	call proce home_admin
 end
 //--------------------------------------------------------------------------------------------
 
@@ -70,6 +75,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	begin
 			nTeater2[nLoop] = nInput++ 
 	end
+	call proce home_admin
 end
 //--------------------------------------------------------------------------------------------
 
@@ -79,6 +85,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	begin
 			nTeater3[nLoop] = nInput++ 
 	end
+	call proce home_admin
 end
 //---------------------------------------------------------------------------------------------
 Procedure Teater4
@@ -87,6 +94,7 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	begin
 			nTeater4[nLoop] = nInput++ 
 	end
+	call proce home_admin
 end
 //--------------------------------------------------------------------------------------------
 
@@ -96,4 +104,5 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	begin
 			nTeater5[nLoop] = nInput++ 
 	end
+	call proce home_admin
 end
