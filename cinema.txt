@@ -10,11 +10,12 @@ begin
 			
 					cInfor[nCinema]
 		
-					cPrice[nCinema]
+					nPrice[nCinema]
 					
 					cTeater[nCinema]
 		
 		Time : 
+		
 		0. 09.00 AM
 		1. 11.00 AM
 		2. 13.00 PM

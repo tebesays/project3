@@ -22,7 +22,7 @@ begin
 		if(cPassword == 'admin' && cUsername == 'admin')
 		
 			begin
-				call Proc add_film
+				call Proc Home_admin
 			end
 		
 		else if(cPassword == 'user' && cUsername== 'user')
@@ -31,8 +31,7 @@ begin
 				Call Proc Home
 			end
 		
-		else
-			
+		else	
 			begin
 		
 				Display 'Your username or password is not available'

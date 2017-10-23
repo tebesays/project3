@@ -15,6 +15,7 @@ begin
 		end 
 
 		//Example of Display is --> 0.) Dead Pool
+									1.) Pengabdi setan
 		
 
 		Display '===================== Input the code of film what you want to choose ============================'
@@ -31,7 +32,6 @@ begin
 				cTitleChose = cTitle[nCinema]	
 				nPriceChose = nPrice[nCinema]
 				nTeaterChose = nTeater[nCinema]
+				call proce Cinema 
 		end
-		
-		call proce Cinema //goto cinema procedure
 end 

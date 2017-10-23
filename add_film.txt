@@ -7,7 +7,8 @@ begin
 		Display '*******Schedule************' 
 		Display '*******Form cinema*********' 
 		Display '===========================' 
-		Display 'Please Input the numbers of Films (MAX 5)'
+		Display 'Please Input the numbers of Films (MAX
+		5)'
 		
 		Accept nFilmTotal
 				
@@ -68,7 +69,6 @@ for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)
 	call proce home_admin
 end
 //--------------------------------------------------------------------------------------------
-
 Procedure Teater2
 begin
 for (nLoop = 0; nLoop < nSubs[nLoopTitle] ; nLoop++)

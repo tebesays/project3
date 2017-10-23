@@ -32,7 +32,7 @@ begin
 				Seat	: '
 			for (nPrint2 = 0; nPrint2 < nQuant; nPrint2++)
 			begin
-				Print 'cSeat[nPrint]'
+				Display 'cSeat[nPrint]'
 			end
 			Call proce home
 	end	
